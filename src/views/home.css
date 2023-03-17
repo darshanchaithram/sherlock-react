@@ -164,7 +164,7 @@
 }
 @media(max-width: 767px) {
   .home-hero {
-    height: 60vh;
+    height: 100vh;
     padding-top: var(--dl-space-space-oneandhalfunits);
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
@@ -177,6 +177,7 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .home-hero1 {
+    height: 100%;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -191,6 +192,9 @@
   }
 }
 @media(max-width: 479px) {
+  .home-hero {
+    height: 100vh;
+  }
   .home-text {
     font-size: 50px;
   }
