@@ -113,6 +113,7 @@
   margin-top: var(--dl-space-space-twounits);
   text-align: justify;
   font-family: Courier New;
+  margin-left: var(--dl-space-space-twounits);
   margin-right: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-twounits);
@@ -177,9 +178,14 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .home-hero1 {
+    width: 100%;
     height: 100%;
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
+  }
+  .home-text04 {
+    margin: 0px;
+    padding-top: var(--dl-space-space-twounits);
   }
   .home-footer {
     padding-left: var(--dl-space-space-twounits);
@@ -212,7 +218,13 @@
     padding-right: var(--dl-space-space-unit);
   }
   .home-text04 {
+    align-self: center;
+    margin-top: var(--dl-space-space-threeunits);
     text-align: justify;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
   }
   .home-footer {
     padding: var(--dl-space-space-unit);
