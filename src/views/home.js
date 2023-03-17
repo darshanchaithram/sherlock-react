@@ -20,7 +20,17 @@ const Home = (props) => {
           />
         </div>
         <div className="home-hero-content">
-          <h1 className="home-text">SHERLOCK</h1>
+        <div class="glitch">
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+          <div class="line">SHERLOCK</div>
+        </div>
           <h1 className="home-text01">The Vicious Seven</h1>
         </div>
       </section>
@@ -60,8 +70,16 @@ const Home = (props) => {
           <br className="home-text09"></br>
           <br></br>
         </span>
-        <button className="home-button button">
-          I&apos;m ready to become a part of Vicious7
+        <button>
+            I'm Ready
+            <div id="clip">
+                <div id="leftTop" class="corner"></div>
+                <div id="rightBottom" class="corner"></div>
+                <div id="rightTop" class="corner"></div>
+                <div id="leftBottom" class="corner"></div>
+            </div>
+            <span id="rightArrow" class="arrow"></span>
+            <span id="leftArrow" class="arrow"></span>
         </button>
       </div>
       <footer className="home-footer">
